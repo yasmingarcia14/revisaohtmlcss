@@ -1,0 +1,287 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*cabeçalho*/
+.cabecalho{
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 180px;
+  padding: 5px;
+}
+
+/*logotipo*/
+.logotopo img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*menus*/
+.menus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.menus li{
+  list-style: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.3;
+}
+
+.menus li:hover{
+  transform: scale(1.2);
+}
+
+/*botao*/
+.bntAssinante button{
+  background-color: white;
+  color: lightgreen;
+  border-radius: 50px;
+  font-weight: bold;
+  width: 185px;
+  height: 40px;
+  border: solid 1px green;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*Banner*/
+.fundoBanner img{
+  width: 100%;
+  height: 450px;
+}
+
+/*Serviços*/
+.fundoServicos{
+  background-color: lightgreen;
+  width: 100%;
+  height: 390px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.servicos{
+  display: flex;
+  width: 310px;
+  height: 110px;
+  gap: 10px;
+}
+
+/*Planos*/
+.fundoPlanos{
+  background-color: #fff9f9;
+  width: 100%;
+}
+
+.textoPlanos{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.wifiTexto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.wifiTexto img{
+  width: 50px;
+  height: 50px;
+}
+
+.wifiTexto h4{
+  font-size: 48px;
+  font-weight: bold;
+  color: #63c663;
+  font-style: italic;
+}
+
+.wifiTexto h4 strong{
+  color: #008f00;
+}
+
+.textoPlanos h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.textoPlanos p{
+  font-family: "Baskerville Old Face";
+  color: #989898;
+}
+
+.planos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.cardPlano{
+  background-color: #FFFFFF;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 40px;
+  transition: transform 0.3;
+}
+
+.cardPlano:hover{
+  transform: scale(1.2);
+}
+
+.textoMega{
+  background-color: lightgreen;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.textoMega h3{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.textoPlanos{
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.conteudoCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.precoPlano{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 8px;
+}
+
+.preco{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.mensal{
+  color: #605a5a;
+}
+
+.itensPlano{
+  margin-bottom: 10px;
+}
+
+.lista{
+  font-family: "Dubai Light";
+  list-style-type: none;
+}
+
+.btnAssineAgora{
+  background-color: #63c663;
+  color: white;
+  border-radius: 50px;
+  width: 185px;
+  height: 50px;
+  font-weight: bold;
+  border: solid 1px green;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/*Clientes*/
+.fundoCardCliente{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cardCliente{
+  background-color: #dbf2db;
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.textoCliente{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cardCliente p{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #008f00;
+}
+
+.fotoCliente img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*Rodape*/
+.rodape{
+  background-color: #089508;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rodape p{
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 28px;
+}
+
+.logoRodape img{
+  width: 200px;
+  height: 80px;
+}
+
+.redeSocialRodape img{
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.redeSocialRodape img:hover{
+  transform: scale(1.2);
+}
