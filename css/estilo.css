@@ -285,3 +285,23 @@ body {
 .redeSocialRodape img:hover{
   transform: scale(1.2);
 }
+
+/*Responsivo*/
+@media (max-width: 768px){
+  header{
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .menus{
+    flex-direction: column;
+  }
+
+  .rodape{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+}
